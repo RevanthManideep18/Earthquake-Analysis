@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "SYNTHETIC TRAINING FIXTURE - NOT REAL USGS OBSERVATIONS",
+    "generated": 1700000100000,
+    "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson (illustrative only)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.2,
+        "place": "12 km NW of Example City (synthetic)",
+        "time": 1700000000000,
+        "updated": 1700000010000,
+        "title": "M 4.2 - synthetic training event"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-118.25, 34.05, 8.1]
+      },
+      "id": "synthetic-quake-001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": null,
+        "place": "Example Ocean (synthetic)",
+        "time": 1700000020000,
+        "updated": 1700000030000,
+        "title": "Magnitude not reported - synthetic training event"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-150.0, 20.0, 15.0]
+      },
+      "id": "synthetic-quake-002"
+    }
+  ]
+}
